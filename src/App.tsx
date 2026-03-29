@@ -8,24 +8,28 @@ export const tasks: Task[] = [
   {
     id: 1,
     title: "Закончить вебинары по Python",
+    description: "",
     priority: "normal",
     isDone: false,
   },
     {
     id: 2,
     title: "Сделать ДЗ 2 по модулю Java Script",
+    description: "",
     priority: "high",
     isDone: true,
   },
     {
     id: 3,
     title: "Продумать, но не отрисовывать элементы для операций над задчами этого Задания",
+    description: "",
     priority: "low",
     isDone: false,
   },
     {
     id: 4,
     title: "Сдать итоговое домашнее задание по Python",
+    description: "",
     priority: "high",
     isDone: false,
   }

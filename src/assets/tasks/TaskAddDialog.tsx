@@ -9,8 +9,6 @@ import {
   MenuItem,
   Button,
   Stack,
-  FormControlLabel,
-  Checkbox,
 } from '@mui/material';
 
 interface TaskAddDialogProps {
@@ -90,16 +88,6 @@ export const TaskAddDialog: React.FC<TaskAddDialogProps> = ({
               <MenuItem value="high">Высокий</MenuItem>
             </TextField>
 
-            {/* <FormControlLabel
-              control={
-                <Checkbox
-                  checked={isDone}
-                  onChange={(e) => setIsDone(e.target.checked)}
-                ></Checkbox>
-
-              }
-              label="Выполнено"
-            /> */}
           </Stack>
         </DialogContent>
         <DialogActions>

@@ -18,7 +18,7 @@ export const Tasks: React.FC<TasksProps> = ({ }) => {
 
   const queryClient = useQueryClient()
 
-  const {data: tasks = [], isLoading, isError, error,} = useQuery<Task[]>({
+  const {data: tasks = [], isLoading} = useQuery<Task[]>({
     queryKey: ['tasks'],
     queryFn: getTasks
   })
